@@ -1,12 +1,10 @@
 # Robotic-Platform-Project-2019
 
-Compile using the command: gcc -o filename filename.c -lquadmath.
+Compile using the command: $gcc -o filename filename.c -lquadmath.
 
-After comparing the initial program's values with those of a simple Matlab script, 
-it is evident for the calculations needed, the maximum of 80-bit precision that C can
-provide with long double is not enough. Quadmath library is needed to support 128-bit float
-precision with _Float128. So you must have it installed to compile the C scripts. Install quadmath
-library using sudo apt install m4.
+quadmath.h library is needed to support 128-bit float precision with _Float128. 
+You must have it installed to compile the C scripts. 
+Install quadmath.h library using $sudo apt install m4.
 
 All programs output a .txt file with the data for the plots of the chosen method.
 
